@@ -123,8 +123,8 @@ Genre : ~25
 ```
 artextract-task1/
 │
-├── style-genre-4.ipynb
-├── model_2_artist_artextract.ipynb
+├── ARTExtract_MODEL_1_FINAL.ipynb
+├── ArtExtract_MODEL_2_FINAL.ipynb
 │
 ├── style-genre-4.pdf
 ├── model_2_artist_artextract.pdf
