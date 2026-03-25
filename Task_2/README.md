@@ -263,8 +263,8 @@ Style labels are a proxy. Two paintings can be visually very similar yet carry d
 ```
 Task2/
 │
-├── task_2_similarity_final.ipynb   ← Main notebook with all outputs
-├── task_2_similarity_final.pdf     ← PDF export with rendered outputs
+├── ArtExtract_Task_2_FINAL.ipynb   ← Main notebook with all outputs
+|  
 │
 └── README.md                       ← This file
 ```
