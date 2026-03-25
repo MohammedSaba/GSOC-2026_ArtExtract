@@ -201,8 +201,8 @@ We report **Mean Precision@10** across all style-labelled paintings as the prima
 |---|---|---|
 | Gothic | 0.594 | 63 |
 | Renaissance | 0.523 | 410 |
-| American Realist | — | — |
-| Impressionist | — | — |
+| American Realist | 0.276 | 340 |
+| Impressionist | 0.318 | 278 |
 | Neoclassic | 0.038 | 24 |
 | Symbolist | 0.090 | 10 |
 
