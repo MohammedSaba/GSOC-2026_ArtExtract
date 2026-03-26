@@ -1,0 +1,18 @@
+```
+
+ `Task_1 requirements`:
+```
+torch>=2.10.0
+torchvision>=0.25.0
+scikit-learn>=1.2
+pandas>=1.5
+numpy>=2.0.2
+matplotlib>=3.9.2
+seaborn>=0.12
+Pillow>=9.0
+```
+
+ `Task_2 requirements` — same as above plus:
+```
+faiss-cpu>=1.7
+requests>=2.28
