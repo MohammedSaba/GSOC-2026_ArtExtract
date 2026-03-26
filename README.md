@@ -27,7 +27,7 @@ repo-root/
 │   │
 │   └── README.md
 │
-└── README.md   ← (optional root README)
+└── README.md  
 
 - **Task 1** — Convolutional-Recurrent Painting Classification → `Task_1/`
 - **Task 2** — Painting Similarity via Deep Metric Learning → `Task_2/`
