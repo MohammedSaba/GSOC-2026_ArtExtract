@@ -260,14 +260,15 @@ Style labels are a proxy. Two paintings can be visually very similar yet carry d
 
 ## Repository Structure
 
-```
-Task2/
+Task_2/
 │
-├── ArtExtract_Task_2_FINAL.ipynb   ← Main notebook with all outputs
-|  
+├── notebook/
+│   └── ArtExtract_Task_2_FINAL.ipynb
 │
-└── README.md                       ← This file
-```
+├── notebook_pdf_output/
+│   └── ArtExtract_Task_2_FINAL.pdf
+│
+└── README.md
 
 ---
 
