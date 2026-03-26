@@ -129,13 +129,19 @@ Genre : ~25
 ## Repository Structure
 
 ```
-artextract-task1/
+Task_1/
 │
-├── ARTExtract_MODEL_1_FINAL.ipynb
-├── ArtExtract_MODEL_2_FINAL.ipynb
+├── model_data_analysis/
+│   └── ArtExtract_DataAnalysis_Final.ipynb
 │
-├── style-genre-4.pdf
-├── model_2_artist_artextract.pdf
+├── model_notebook/
+│   ├── ARTExtract_MODEL_1_FINAL.ipynb
+│   └── ArtExtract_MODEL_2_FINAL.ipynb
+│
+├── notebook_pdf_outputs/
+│   ├── ARTExtract_MODEL_1_FINAL.pdf
+│   ├── ArtExtract_MODEL_2_FINAL.pdf
+│   └── ArtExtract_DataAnalysis_Final.pdf
 │
 └── README.md
 ```
