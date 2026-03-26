@@ -345,6 +345,4 @@ Load the best checkpoint and run evaluation cells directly.
 
 Submitted for GSoC 2026 — ArtExtract
 HumanAI 
-
-Email: [human-ai@cern.ch](mailto:human-ai@cern.ch)
 Subject: Evaluation Test: ArtExtract
