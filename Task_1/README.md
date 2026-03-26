@@ -35,6 +35,14 @@ from the WikiArt label CSVs. The analysis notebook
 
 ## Approach Exploration
 
+### Baseline Considered — Plain CNN (Not Used)
+A plain CNN (ResNet50 with global average pooling → linear head) was
+considered as a starting point. It was not implemented as a standalone
+baseline because the task specifically requires convolutional-recurrent
+architectures, and the evaluators are assessing the CNN-RNN design
+directly. The LSTM is not an optional enhancement — it is the required
+architectural component per the task specification.
+
 ### Approach 1 — Full Three-Task Multi-Task (Rejected)
 
 Outer join all three CSVs → one model → three heads.
