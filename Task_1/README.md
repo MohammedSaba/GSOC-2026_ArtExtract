@@ -11,7 +11,7 @@
 
 Every architectural choice below is backed by numbers computed directly
 from the WikiArt label CSVs. The analysis notebook
-`ArtExtract_DataAnalysis.ipynb` contains all code and outputs.
+`ArtExtract_DataAnalysis_Final.ipynb` contains all code and outputs.
 
 ### Dataset Analysis
 
