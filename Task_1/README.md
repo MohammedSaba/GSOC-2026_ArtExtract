@@ -39,7 +39,7 @@ and missing labels are handled using masking.
 - The total unique image count (57,340) differs slightly from the training set size (57,238)
 because the total includes validation data and images present only in specific label sets 
 (e.g., artist), which are not used during model training.
--**Note on dataset counts:** The overlap matrix below is computed from the
+- **Note on dataset counts:** The overlap matrix below is computed from the
  **training split only** (style_train.csv: 57,025 images; artist_train.csv:
  13,346 images; genre_train.csv: 45,503 images). The `ArtExtract_DataAnalysis_Final`
  notebook reports larger counts (81,446 / 19,052 / 64,994) because it unions
