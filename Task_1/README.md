@@ -22,6 +22,20 @@ from the WikiArt label CSVs. The analysis notebook
 | Genre            | 45,503     | 10      |
 | **Total unique** | **57,340** | —       |
 
+Raw dataset sizes (including train and validation sets):
+- Style: 81,446 images
+- Artist: 19,052 images
+- Genre: 64,994 images
+
+Merged dataset (used for training multi-task models):
+- Train set: 57,238 images
+- Validation set: 24,573 images
+
+Note:
+The merged dataset size is smaller because not all images have labels for all tasks 
+(style, genre, artist). During preprocessing, datasets are merged on filename, 
+and missing labels are handled using masking.
+
 **Label overlap matrix (computed from actual files):**
 
 | Intersection   | Count  | Coverage                                 |
