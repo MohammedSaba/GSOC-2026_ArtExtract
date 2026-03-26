@@ -1,6 +1,6 @@
 # ArtExtract — GSoC 2026 Evaluation | Mohammed Saba
-'''
-repo-root/
+```
+GSOC-2026_ArtExtract/
 │
 ├── Task_1/
 │   ├── model_data_analysis/
@@ -27,8 +27,8 @@ repo-root/
 │   │
 │   └── README.md
 │
-└── README.md  
-'''
+└── README.md   ← (optional root README)
+```
 - **Task 1** — Convolutional-Recurrent Painting Classification → `Task_1/`
 - **Task 2** — Painting Similarity via Deep Metric Learning → `Task_2/`
 
