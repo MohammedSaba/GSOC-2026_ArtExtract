@@ -1,6 +1,6 @@
 # ArtExtract — Task 1: Convolutional-Recurrent Painting Classification
 
-**GSoC 2026 Evaluation Submission — HumanAI @ CERN Umbrella Organization**
+**GSoC 2026 Evaluation Submission — HumanAI Organization**
 **Project:** ArtExtract
 **Task:** Task 1 — Convolutional-Recurrent Architectures
 **Dataset:** https://github.com/cs-chan/ArtGAN/blob/master/WikiArt%20Dataset/README.md
@@ -247,7 +247,18 @@ Step 5: Retrain full 3-task model
 Step 6: Iterate
 ```
 
-78% artist accuracy improves pseudo-label reliability and convergence.
+**Why the 80% confidence threshold is critical:**
+
+Without threshold: at 78% model accuracy, ~22% of pseudo labels are wrong.
+With 80% threshold: only the model's most certain predictions are kept —
+wrong label rate drops substantially, trading coverage for label quality.
+
+**Why 78% artist accuracy (vs our initial 65% estimate) matters:**
+The original pseudo-labeling plan was designed assuming ~65% accuracy,
+where noise was a significant concern. At 78%, the model is substantially
+more reliable, meaning the 80% confidence threshold retains more images
+while producing cleaner labels than initially projected. This makes the
+iterative pipeline more viable and faster to converge.
 
 ---
 
