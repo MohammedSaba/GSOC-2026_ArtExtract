@@ -259,7 +259,7 @@ Style labels are a proxy. Two paintings can be visually very similar yet carry d
 ---
 
 ## Repository Structure
-
+```
 Task_2/
 │
 ├── notebook/
@@ -269,7 +269,7 @@ Task_2/
 │   └── ArtExtract_Task_2_FINAL.pdf
 │
 └── README.md
-
+```
 ---
 
 ## Environment & Reproducibility
