@@ -28,13 +28,17 @@ Raw dataset sizes (including train and validation sets):
 - Genre: 64,994 images
 
 Merged dataset (used for training multi-task models):
-- Train set: 57,238 images
+- Train set: 57,278 images
 - Validation set: 24,573 images
 
+
 Note:
-The merged dataset size is smaller because not all images have labels for all tasks 
+- The merged dataset size is smaller because not all images have labels for all tasks 
 (style, genre, artist). During preprocessing, datasets are merged on filename, 
 and missing labels are handled using masking.
+- The total unique image count (57,340) differs slightly from the training set size (57,238)
+because the total includes validation data and images present only in specific label sets 
+(e.g., artist), which are not used during model training.
 
 **Label overlap matrix (computed from actual files):**
 
