@@ -318,6 +318,28 @@ Dataset: Kaggle WikiArt
 Labels: ArtGAN CSVs
 
 ---
+## Setup & Reproduction
+
+**Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+**Dataset:**
+Download WikiArt from the ArtGAN repository:
+https://github.com/cs-chan/ArtGAN/blob/master/WikiArt%20Dataset/README.md
+
+Place images in a local directory and update `DATA_DIR` and `LABEL_DIR`
+in Cell 1 of each notebook to point to your local paths.
+
+**Training hardware:**
+- Model 1 was trained on Kaggle (Tesla T4 GPU, 12-hour session)
+- Model 2 was trained on Google Colab (Tesla T4 GPU)
+
+**To reproduce without retraining:**
+All notebooks contain hardcoded training history and rendered outputs.
+Load the best checkpoint and run evaluation cells directly.
+
 
 ## Contact
 
