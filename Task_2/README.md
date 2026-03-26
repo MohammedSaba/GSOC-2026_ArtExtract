@@ -299,9 +299,35 @@ Images are fetched via IIIF API and saved to `nga_images/` — the notebook down
 - `finetuned_embedder.pth` — fine-tuned model weights
 
 ---
+## Setup & Reproduction
+
+**Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+**Dataset:**
+Clone the NGA open dataset:
+```bash
+git clone https://github.com/NationalGalleryOfArt/opendata
+```
+Place the `opendata/` folder in your working directory.
+Update the CSV paths in Cell 4 of the notebook to point to your local path.
+
+**Images:**
+Images are downloaded automatically via the IIIF API in the notebook's
+download cell. 2,888 open-access paintings will be saved to `nga_images/`.
+
+**Hardware:**
+Trained on Apple M1 (8GB RAM). If you encounter memory issues,
+reduce batch size or add `sudo purge` between heavy cells on macOS.
+
+**Saved artefacts:**
+- `nga_embeddings.npy` + `nga_ids.npy` — baseline embeddings
+- `nga_embeddings_finetuned.npy` + `nga_ids_finetuned.npy` — fine-tuned embeddings
+- `finetuned_embedder.pth` — model weights
 
 ## Contact
 
-Submitted for GSoC 2026 — ArtExtract | HumanAI @ CERN  
-**Email:** human-ai@cern.ch  
+Submitted for GSoC 2026 — ArtExtract | HumanAI @ CERN   
 **Subject:** Evaluation Test: ArtExtract
