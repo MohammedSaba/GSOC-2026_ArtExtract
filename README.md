@@ -23,11 +23,11 @@ GSOC-2026_ArtExtract/
 │   │
 │   ├── notebook_pdf_output/
 │   │   ├── ArtExtract_Task_2_FINAL.pdf
-│   │   └── hi   ← (extra file as in image)
+│   │   
 │   │
 │   └── README.md
 │
-└── README.md   ← (optional root README)
+└── README.md  
 ```
 - **Task 1** — Convolutional-Recurrent Painting Classification → `Task_1/`
 - **Task 2** — Painting Similarity via Deep Metric Learning → `Task_2/`
